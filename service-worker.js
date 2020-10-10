@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Turnos-cmo/precache-manifest.0c4e2214dd9d802e03460c6dc581afa4.js"
+  "/Turnos-cmo/precache-manifest.9e898950592297ec1cbc236dbafe2c09.js"
 );
 
 self.addEventListener('message', (event) => {

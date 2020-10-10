@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff8156300cb8df79f4a1bb3b00e60d07",
+    "revision": "710f8a5c96254d022ae6b6edc20d199c",
     "url": "/Turnos-cmo/index.html"
   },
   {
-    "revision": "dc4c140e9df0e88a0cbc",
+    "revision": "84ee511d0f5bb91c82f7",
     "url": "/Turnos-cmo/static/css/main.496261a1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Turnos-cmo/static/js/2.bfe5d0cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc4c140e9df0e88a0cbc",
-    "url": "/Turnos-cmo/static/js/main.c7f821f0.chunk.js"
+    "revision": "84ee511d0f5bb91c82f7",
+    "url": "/Turnos-cmo/static/js/main.c7c02e2f.chunk.js"
   },
   {
     "revision": "2d643f6c87d57bab8df8",
