@@ -1,4 +1,5 @@
 {
+  "homepage": "https://giova2.github.io/Turnos-cmo",
   "name": "turnos-cmo",
   "version": "0.1.0",
   "private": true,
@@ -10,14 +11,26 @@
     "@types/node": "^12.12.62",
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
+    "@types/react-google-recaptcha": "^2.1.0",
+    "@types/styled-components": "^5.1.3",
+    "@types/yup": "^0.29.7",
+    "emailjs-com": "^2.6.3",
+    "formik": "^2.1.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.1.0",
     "react-scripts": "3.4.3",
-    "typescript": "^3.7.5"
+    "styled-components": "^5.2.0",
+    "styled-components-breakpoint": "^3.0.0-preview.20",
+    "typescript": "^3.7.5",
+    "yup": "^0.29.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
+    "start": "npm run watch:css & react-scripts start",
+    "build": "npm run build:css react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +48,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "babel-plugin-macros": "^2.8.0",
+    "gh-pages": "^3.1.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10",
+    "twin.macro": "^1.10.0"
   }
 }
