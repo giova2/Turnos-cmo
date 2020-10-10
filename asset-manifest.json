@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Turnos-cmo/static/css/main.496261a1.chunk.css",
+    "main.js": "/Turnos-cmo/static/js/main.c7f821f0.chunk.js",
+    "main.js.map": "/Turnos-cmo/static/js/main.c7f821f0.chunk.js.map",
+    "runtime-main.js": "/Turnos-cmo/static/js/runtime-main.769adea7.js",
+    "runtime-main.js.map": "/Turnos-cmo/static/js/runtime-main.769adea7.js.map",
+    "static/js/2.bfe5d0cf.chunk.js": "/Turnos-cmo/static/js/2.bfe5d0cf.chunk.js",
+    "static/js/2.bfe5d0cf.chunk.js.map": "/Turnos-cmo/static/js/2.bfe5d0cf.chunk.js.map",
+    "index.html": "/Turnos-cmo/index.html",
+    "precache-manifest.0c4e2214dd9d802e03460c6dc581afa4.js": "/Turnos-cmo/precache-manifest.0c4e2214dd9d802e03460c6dc581afa4.js",
+    "service-worker.js": "/Turnos-cmo/service-worker.js",
+    "static/css/main.496261a1.chunk.css.map": "/Turnos-cmo/static/css/main.496261a1.chunk.css.map",
+    "static/js/2.bfe5d0cf.chunk.js.LICENSE.txt": "/Turnos-cmo/static/js/2.bfe5d0cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.769adea7.js",
+    "static/js/2.bfe5d0cf.chunk.js",
+    "static/css/main.496261a1.chunk.css",
+    "static/js/main.c7f821f0.chunk.js"
+  ]
+}
