@@ -1,5 +1,4 @@
 {
-  "homepage": "https://giova2.github.io/Turnos-cmo",
   "name": "turnos-cmo",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +28,7 @@
     "build:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/styles.css",
     "start": "npm run watch:css & react-scripts start",
-    "build": "npm run build:css react-scripts build",
+    "build": "npm run build:css & react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

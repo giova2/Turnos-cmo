@@ -2,12 +2,14 @@ import React from "react";
 import StyledForm, {
   StyledError,
   StyledContainerInput,
-  StyledLayoutWait
+  StyledLayoutWait,
+  StyledHeader
 } from "../assets/StyledForms";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import ReCAPTCHA from "react-google-recaptcha";
+import SocialIcons from './SocialIcons';
 
 const MySelect = ({ field, form, children }: any) => {
   return (
@@ -44,7 +46,6 @@ function FormTurnos() {
     }
   }, [])
   const onChange = (value:any)=>{
-    console.log("Captcha value:", value);
     // if value is null recaptcha expired
     if (value === null){
       setRecaptcha(false);
@@ -64,10 +65,8 @@ function FormTurnos() {
           // horario: false,
         }}
         onSubmit={async (values) => {
-          console.log({ values });
           setSending(true);
           const res = await emailjs.send("cmo", "template_turno", values);
-          console.log({res});
           if(res.status === 200){
             setSending(false);
           }
@@ -92,7 +91,11 @@ function FormTurnos() {
                   Estamos enviando su petición
                 </div>
               </StyledLayoutWait>
-              <h1>CMO</h1>
+              <SocialIcons/>
+              <StyledHeader>
+                <h1>CMO</h1>
+                <p className="subtitle">TURNOS</p>
+              </StyledHeader>
               <StyledContainerInput>
                 <Field
                   name="nombre"

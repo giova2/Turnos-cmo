@@ -3,8 +3,8 @@ import styled from "styled-components";
 import Icon from "./Icon";
 
 const Svg = styled(Icon)<{ size?: string }>`
-  width: ${({ size }) => (size ? size : "24px")};
-  height: ${({ size }) => (size ? size : "24px")};
+  width: ${({ size }) => (size ? size : "32px")};
+  height: ${({ size }) => (size ? size : "32px")};
 `;
 
 export const InfoIcon = ({

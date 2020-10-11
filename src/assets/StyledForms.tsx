@@ -2,6 +2,23 @@ import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
 import tw from "twin.macro";
 
+export const StyledHeader = styled.div.attrs({
+  className:
+    "flex flex-col justify-start items-center",
+})`
+  font-family: ${({ theme }) => theme.fonts.main};
+  & {
+    h1 {
+      ${tw`text-4xl mb-3`}    
+      font-size: ${({ theme }) => theme.fontSize.main};
+      margin-bottom:-1.5rem;
+    }
+    .subtitle{
+      font-size: ${({ theme }) => theme.fontSize.secondary};
+    }
+  }
+`;
+
 export const StyledLayoutWait = styled.div<{sending:boolean}>`
   ${tw`absolute left-0 top-0 h-screen w-screen z-10 bg-blue-600 bg-opacity-75 justify-center items-center`}
   ${({ sending }) => sending ? `display:flex` : `display:none`}
@@ -17,7 +34,7 @@ export const StyledError = styled.span`
 
 const StyledForm = styled.main.attrs({
   className:
-    "flex flex-col h-screen justify-center items-center w-screen overflow-x-hidden",
+    "flex flex-col h-screen justify-start items-center w-screen overflow-x-hidden",
 })`
   background-image: url("./assets/images/recepcion.jpg");
   font-size: ${({ theme }) => theme.fontSize.secondary};
@@ -39,11 +56,6 @@ const StyledForm = styled.main.attrs({
       ${breakpoint("tablet")`
         width: 50%;
       `}
-    }
-    h1 {
-      ${tw`text-4xl mb-3`}
-      font-family: ${({ theme }) => theme.fonts.main};
-      font-size: ${({ theme }) => theme.fontSize.main};
     }
     input {
       ${tw`border-gray-300 mb-2 w-full border-solid border rounded py-2 px-1`}
