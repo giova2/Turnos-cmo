@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Turnos-cmo/static/css/main.496261a1.chunk.css",
-    "main.js": "/Turnos-cmo/static/js/main.eb45bc62.chunk.js",
-    "main.js.map": "/Turnos-cmo/static/js/main.eb45bc62.chunk.js.map",
+    "main.js": "/Turnos-cmo/static/js/main.7beba538.chunk.js",
+    "main.js.map": "/Turnos-cmo/static/js/main.7beba538.chunk.js.map",
     "runtime-main.js": "/Turnos-cmo/static/js/runtime-main.769adea7.js",
     "runtime-main.js.map": "/Turnos-cmo/static/js/runtime-main.769adea7.js.map",
-    "static/js/2.b8308415.chunk.js": "/Turnos-cmo/static/js/2.b8308415.chunk.js",
-    "static/js/2.b8308415.chunk.js.map": "/Turnos-cmo/static/js/2.b8308415.chunk.js.map",
+    "static/js/2.028c5c63.chunk.js": "/Turnos-cmo/static/js/2.028c5c63.chunk.js",
+    "static/js/2.028c5c63.chunk.js.map": "/Turnos-cmo/static/js/2.028c5c63.chunk.js.map",
     "index.html": "/Turnos-cmo/index.html",
-    "precache-manifest.3e8a9b5b075e11ba754630ec5565af4c.js": "/Turnos-cmo/precache-manifest.3e8a9b5b075e11ba754630ec5565af4c.js",
+    "precache-manifest.4b624a186fd029607bdc59b572b21ae3.js": "/Turnos-cmo/precache-manifest.4b624a186fd029607bdc59b572b21ae3.js",
     "service-worker.js": "/Turnos-cmo/service-worker.js",
     "static/css/main.496261a1.chunk.css.map": "/Turnos-cmo/static/css/main.496261a1.chunk.css.map",
-    "static/js/2.b8308415.chunk.js.LICENSE.txt": "/Turnos-cmo/static/js/2.b8308415.chunk.js.LICENSE.txt"
+    "static/js/2.028c5c63.chunk.js.LICENSE.txt": "/Turnos-cmo/static/js/2.028c5c63.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.769adea7.js",
-    "static/js/2.b8308415.chunk.js",
+    "static/js/2.028c5c63.chunk.js",
     "static/css/main.496261a1.chunk.css",
-    "static/js/main.eb45bc62.chunk.js"
+    "static/js/main.7beba538.chunk.js"
   ]
 }
