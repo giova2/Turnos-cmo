@@ -20,8 +20,13 @@ export const StyledHeader = styled.div.attrs({
 `;
 
 export const StyledLayoutWait = styled.div<{sending:boolean}>`
-  ${tw`absolute left-0 top-0 h-screen w-screen z-10 bg-blue-600 bg-opacity-75 justify-center items-center`}
-  ${({ sending }) => sending ? `display:flex` : `display:none`}
+  ${tw`absolute left-0 top-0 h-screen w-screen bg-blue-600 bg-opacity-75 flex justify-center items-center`}
+  text-shadow: 1px 1px 2px black;
+  font-size: ${({ theme }) => theme.fontSize.mobile};
+  transition: all 500ms cubic-bezier(0.07, 0.64, 0.46, 0.87);
+  visibility: ${({ sending }) => sending ? `visible` : `hidden`};
+  opacity: ${({ sending }) => sending ? 1 : 0};
+  z-index: ${({ sending }) => sending ? 10 : -1};
 `;
 
 export const StyledContainerInput = styled.div`

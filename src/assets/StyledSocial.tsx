@@ -1,5 +1,4 @@
-import styled, {css} from "styled-components";
-import breakpoint from "styled-components-breakpoint";
+import styled from "styled-components";
 import tw from "twin.macro";
 
 export const StyledIcon = styled.a`
